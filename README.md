@@ -48,6 +48,18 @@ day of week    01 02 03 04 05
 command        /usr/bin/find
 ```
 
+## Testing
+
+To run the tests in `cron_parser_test.rb`:
+
+```bash
+gem install rspec
+```
+
+```bash
+rspec cron_parser_test.rb
+```
+
 ## Cron Expression Format
 
 The cron expression format consists of five fields separated by spaces:
